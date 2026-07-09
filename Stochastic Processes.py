@@ -86,7 +86,7 @@ t0, path0 = ABM(mu=mu, sigma=sigma, S0=S0, n_steps=n_steps) # Arithmetic Brownia
 
 t1, path1 = GBM(mu=mu, sigma=sigma, S0=S0, n_steps=n_steps) # Geometric Brownian Motion
 
-t2, path2 = OU(mu=mu, sigma=sigma, theta=theta, S0=S0, n_steps=n_steps) # Ornsetein-Uhlenbeck Process
+t2, path2 = OU(mu=mu, sigma=sigma, theta=theta, S0=S0, n_steps=n_steps) # Ornstein-Uhlenbeck Process
 
 t3, path3 = MJD(mu=mu, sigma=sigma, jump=jump, jump_rate=jump_rate, S0=S0, n_steps=n_steps) # Merton Jump Diffusion
 
