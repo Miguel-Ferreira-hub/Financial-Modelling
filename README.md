@@ -1,6 +1,6 @@
 # Portfolio Optimisation
 
-The first portfolio path follows an asset weighting aimed at maximising the sharpe ratio:
+The first portfolio path (various US Equities) follows an asset weighting aimed at maximising the sharpe ratio:
 
 $$
 \text{Sharpe Ratio} = \frac{R_p - R_f}{\sigma_p}
