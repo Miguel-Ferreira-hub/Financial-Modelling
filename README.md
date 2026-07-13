@@ -1,5 +1,7 @@
 # Portfolio Optimisation
 
+!(Images/Portfolio_Paths.png)
+
 The first portfolio path (various US Equities) follows an asset weighting aimed at maximising the sharpe ratio:
 
 $$
