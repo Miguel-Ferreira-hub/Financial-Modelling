@@ -8,7 +8,7 @@ $$
 \text{Sharpe Ratio} = \frac{R_p - R_f}{\sigma_p}
 $$
 
-While the second portfolio aims to minimise the affect of volatility drag and therefore maximise compounding returns:
+While the second portfolio aims to minimise the effect of volatility drag and therefore maximise compounding returns:
 
 $$
 R_g \approx {\mu} - \frac{1}{2}\sigma^2
