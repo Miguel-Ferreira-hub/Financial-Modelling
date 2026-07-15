@@ -21,7 +21,6 @@ ticker = 'NVDA'
 # Load Sample Data - Example Mean Reverting Regime
 def load_data(filename):
     directory = r'C:\Users\Miguel\Desktop\Interactive Brokers'
-    # directory = r'C:\Users\migue\Desktop\Part IV\Quant\Algorithmic Trading'
     path = os.path.join(directory, filename)
     if os.path.exists(path):
         file = np.load(path)
