@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.widgets import Button, Slider, TextBox, RadioButtons
+from matplotlib.widgets import Button, Slider, TextBox
 import numpy as np
 import yfinance as yf
 import datetime as dt
@@ -113,7 +113,7 @@ line, = ax.plot(Kalman(x,P,initR,close_price,mu,theta,sigma), lw=2, label='Kalma
 l, = ax.plot(close_price,label=f'{ticker} Close Price')
 ax.set_title(f'Kalman Mean Reversion on {ticker} Close Price')
 mean_linek, = ax.plot([0, len(close_price)],[kalman_mean, kalman_mean],color='red',label='Kalman Mean')
-ax.set_xlabel('Time')
+ax.set_xlabel('Sample')
 ax.set_ylabel(f'{ticker} Close Price ($)')
 mean = [mu,mu]
 muline, = ax.plot([0, len(close_price)],[mu, mu],label='OU Mean',color='purple')
