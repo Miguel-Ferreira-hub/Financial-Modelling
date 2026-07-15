@@ -18,25 +18,26 @@ It can be seen that although in this case the Sharpe ratio maximised portfolio p
 
 Below two optimisation methods are presented, one producing the Efficient Frontier via Monte Carlo simulation, and a second method using an evolutionary algorithm (NSGA2) to produce the Pareto front by simultaneously minimising risk, while maximising expected returns as a multi-objective optimisation problem.
 
-# Efficient Frontier via Monte Carlo Simulation
+<h1 align="center">Efficient Frontier via Monte Carlo Simulation</h1>
 
 <p align="center">
   <img src="Images/Monte.png" alt="Logo" width="900">
 </p>
 
-# Efficient Frontier via NSGA2 Global Optimisation to find Pareto Front
+<h1 align="center">Efficient Frontier via NSGA2 Global Optimisation to find Pareto Front</h1>
 
 <p align="center">
   <img src="Images/NSGA2.png" alt="Logo" width="900">
 </p>
 
-# Point Minimising Volatility Drag
+<h1 align="center">Point Minimising Volatility Drag</h1>
 
 <p align="center">
   <img src="Images/All.png" alt="Logo" width="900">
 </p>
 
-# Algorithmic Trading
+<h1 align="center">Algorithmic Trading</h1>
+
 This strategy combines market data (close price) with a model such as thje Ornstein-Uhlenbeck (OU) process (discretisation displayed below) as a mean-reversion approximation using a linear Kalman Filter. 
 
 $$
@@ -60,5 +61,5 @@ Examples are displayed below:
   <img src="Images/BTC.png" alt="Logo" width="900">
 </p>
 
-# Future Work
+<h1 align="center">Future Work</h1>
 Future work aims to implement this strategy live, pulling data from the Interactive Brokers API and deploying the model in a paper trading capacity.
