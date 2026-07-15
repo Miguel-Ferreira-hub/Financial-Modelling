@@ -50,4 +50,4 @@ Examples are displayed below:
 </p>
 
 # Future Work
-Future work aims to implement this strategy live, pulling data from the Interactive Brokers API and deploying a model in a paper trading capacity.
+Future work aims to implement this strategy live, pulling data from the Interactive Brokers API and deploying the model in a paper trading capacity.
