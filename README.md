@@ -37,7 +37,7 @@ Below two optimisation methods are presented, one producing the Efficient Fronti
 </p>
 
 # Algorithmic Trading
-This strategy combines market data (close price) with a model such as an Ornstein-Uhlenbeck (OU) process as a mean-reversion approximation using a linear Kalman Filter. The script "Kalman_Filter_Mean_Reversion" begins my calibrating an OU process to market data and executing the Kalman Filter algorithm, the results are visualised in an interactive display where the balance between process and measurement uncertainty can be altered. The strategy hopes to produce the Kalman mean line in real time and trade it as a reference.
+This strategy combines market data (close price) with a model such as an Ornstein-Uhlenbeck (OU) process as a mean-reversion approximation using a linear Kalman Filter. The script "Kalman_Filter_Mean_Reversion" begins by calibrating an OU process to market data, and executing the Kalman Filter algorithm. The results are visualised in an interactive display where the balance between process and measurement uncertainty can be altered. The strategy hopes to produce the Kalman mean line in real time and trade it as a reference.
 
 Examples are displayed below:
 
