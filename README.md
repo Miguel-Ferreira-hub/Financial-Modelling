@@ -20,12 +20,18 @@ Below two optimisation methods are presented, one producing the Efficient Fronti
 
 # Efficient Frontier via Monte Carlo Simulation
 
-![Monte Carlo Simulation](Images/Monte.png)
+<p align="center">
+  <img src="Images/Monte.png" alt="Logo" width="900">
+</p>
 
 # Efficient Frontier via NSGA2 Global Optimisation to find Pareto Front
 
-![Global Optimisation](Images/NSGA2.png)
+<p align="center">
+  <img src="Images/NSGA2.png" alt="Logo" width="900">
+</p>
 
 # Point Minimising Volatility Drag
 
-![All Points](Images/All.png)
+<p align="center">
+  <img src="Images/All.png" alt="Logo" width="900">
+</p>
