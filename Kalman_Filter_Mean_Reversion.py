@@ -75,8 +75,6 @@ def load_ticker(ticker, interval):
     close_price = close.values
 
     dt = 15/(60*24)
-    # theta = -beta/dt
-    # mu = alpha / (theta * dt)
     phi = 1 + beta
     theta = -np.log(phi)/dt
     mu = alpha/(1-phi)
