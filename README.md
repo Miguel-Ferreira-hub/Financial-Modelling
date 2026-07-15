@@ -1,4 +1,4 @@
-# Portfolio Optimisation
+<h1 align="center">Portfolio Optimisation</h1>
 
 ![Portfolio Paths](Images/Portfolio_Paths.png)
 
