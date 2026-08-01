@@ -1,5 +1,13 @@
 <h1 align="center">Modelling</h1>
 
+<p align="center">
+  <img src="Images/Metrics_Sheet_Title.png" alt="Logo" width="900">
+</p>
+
+<p align="center">
+  <img src="Images/Metrics_Sheet_Stats.png" alt="Logo" width="900">
+</p>
+
 <h1 align="center">Portfolio Optimisation</h1>
 
 ![Portfolio Paths](Images/Portfolio_Paths.png)
