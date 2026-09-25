@@ -1,4 +1,4 @@
-# Simulation of various stochastic processes and models
+# Simulation of Various Stochastic Processes
 import numpy as np
 import matplotlib.pyplot as plt
 
